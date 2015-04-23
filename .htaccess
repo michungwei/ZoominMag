@@ -1,0 +1,6 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^onecentimetre.com$
+RewriteRule ^/?$ "http\:\/\/www\.onecentimetre\.com\/" [R=302,L]
+
